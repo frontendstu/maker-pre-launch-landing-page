@@ -1,0 +1,89 @@
+// Event Mixins
+// Usage: @include mixin.link { ... }
+@mixin link {
+  &:link {
+    @content;
+  }
+}
+
+@mixin visited {
+  &:visited {
+    @content;
+  }
+}
+
+@mixin active {
+  &:active {
+    @content;
+  }
+}
+
+@mixin hover {
+  &:hover {
+    @content;
+  }
+}
+
+@mixin hover-focus {
+  &:hover,
+  &:focus {
+    @content;
+  }
+}
+
+@mixin hover-focus-within {
+  &:hover,
+  &:focus-within {
+    @content;
+  }
+}
+
+@mixin focus {
+  &:focus {
+    @content;
+  }
+}
+
+@mixin focus-within {
+  &:focus-within {
+    @content;
+  }
+}
+
+@mixin focus-visible {
+  &:focus-visible {
+    @content;
+  }
+}
+
+// Flexbox
+// Useage: @include mixin.flex;
+@mixin flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// Grid
+// Usage: @include mixin.grid(3, 1.875rem) { ... }
+@mixin grid($columns, $gap) {
+  display: grid;
+  grid-template-columns: repeat($columns, 1fr);
+  grid-gap: $gap;
+}
+
+// Font Face Import
+// Usage:
+// @include mixin.font-face(
+//   $font-family: 'Font Name',
+//   $font-path: 'url-to-font',
+//   $font-weight: font-weight-range
+// );
+@mixin font-face($font-family, $font-path, $font-weight, $font-style: normal) {
+  @font-face {
+    font-family: #{$font-family};
+    font-display: swap;
+    font-weight: #{$font-weight};
+    src: url(#{$font-path});
+  }
+}
