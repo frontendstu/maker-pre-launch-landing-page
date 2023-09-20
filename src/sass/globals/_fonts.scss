@@ -1,1 +1,7 @@
 @use '../abstracts' as abstract;
+
+@include abstract.font-face(
+  $font-family: 'Manrope',
+  $font-path: '../assets/fonts/Manrope/Manrope-VariableFont_wght.ttf',
+  $font-weight: 500 800
+);
