@@ -7,4 +7,18 @@
 
   --color-primary: hsl(179, 80%, 58%);
   --color-error: hsl(343, 100%, 58%);
+
+  // ---------- TYPE
+
+  // -------- Fonts
+  --fw-medium: 500;
+  --fw-extrabold: 800;
+
+  --fs-100: 0.9375rem; // 15px
+  --fs-300: 1.125rem; // 18px
+  --fs-400: 2rem; // 32px
+  --fs-500: 2.5rem; // 40px
+  --fs-600: 3rem; // 48px
+
+  --ff-primary: 'Manrope', sans-serif;
 }
