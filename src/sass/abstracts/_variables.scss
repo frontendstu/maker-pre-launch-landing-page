@@ -37,4 +37,11 @@
   --heading-fw: var(--fw-extrabold);
   --heading-ff: var(--ff-primary);
   --heading-color: var(--color-neutral-100);
+
+  // ------ Links
+  --link-decoration: none;
+  --link-decoration-active: var(--link-decoration);
+  --link-color: var(--copy-color);
+  --link-color-active: var(--link-color);
+  --link-transition: 150ms ease-in-out all;
 }
