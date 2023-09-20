@@ -27,4 +27,9 @@
   --leading-400: 2.75em; // 44px
   --leading-500: 3.4375em; // 55px
   --leading-600: 3.5em; // 56px
+
+  // ------ Copy
+  --copy-font: var(--fw-medium) var(--fs-100) var(--ff-primary);
+  --copy-leading: var(--leading-100);
+  --copy-color: var(--color-neutral-400);
 }
