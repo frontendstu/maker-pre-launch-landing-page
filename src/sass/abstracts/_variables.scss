@@ -82,11 +82,14 @@
     --hero-img-height: 22.25rem; // 356px
     --hero-img-left-url: url('../assets/images/illustration-hero-left.svg');
     --hero-img-right-url: url('../assets/images/illustration-hero-right.svg');
+    --hero-img-left-margin-left: -10.5rem;
+    --hero-img-right-margin-right: var(--hero-img-left-margin-left);
   }
 
   @media (min-width: 90em) {
     --hero-img-width: 25.5rem; // 408px
     --hero-img-height: 28.6875rem; // 459px
+    --hero-img-left-margin-left: -2rem;
   }
 
   // ------ Hero Content
