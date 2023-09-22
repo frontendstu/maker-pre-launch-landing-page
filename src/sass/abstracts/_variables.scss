@@ -47,4 +47,17 @@
   --link-color: var(--copy-color);
   --link-color-active: var(--link-color);
   --link-transition: 150ms ease-in-out all;
+
+  // ---------- COMPONENTS
+
+  // -------- Buttons
+  --btn-font: var(--fw-extrabold) var(--fs-100) var(--ff-primary);
+  --btn-color: var(--color-neutral-600);
+  --btn-color-active: var(--color-neutral-100);
+  --btn-bg: var(--color-primary);
+  --btn-bg-active: transparent;
+  --btn-border: 2px solid transparent;
+  --btn-border-color-active: var(--color-primary);
+  --btn-radius: 99vw;
+  --btn-padding: 0.75rem 1.5rem;
 }
