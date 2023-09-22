@@ -1,1 +1,8 @@
 @use '../abstracts' as abstract;
+
+body {
+  font: var(--copy-font);
+  line-height: var(--copy-leading);
+  color: var(--copy-color);
+  background-color: var(--color-body-bg);
+}
