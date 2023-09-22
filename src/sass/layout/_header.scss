@@ -1,1 +1,11 @@
 @use '../abstracts' as abstract;
+
+.header-primary {
+  @include abstract.flex;
+
+  margin-top: var(--header-margin-top);
+
+  @media (min-width: 48em) {
+    justify-content: flex-start; // Move logo to the left of header
+  }
+}
