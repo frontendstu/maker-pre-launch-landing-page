@@ -46,6 +46,8 @@
   }
 
   &__content {
+    @include abstract.flex;
+
     margin-inline: auto;
     max-width: var(--hero-content-max-width);
   }
