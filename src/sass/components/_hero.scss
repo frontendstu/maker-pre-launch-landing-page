@@ -2,6 +2,7 @@
 
 .hero {
   margin-top: var(--hero-margin-top);
+  overflow-x: hidden;
 
   &__img {
     &-mobile {
