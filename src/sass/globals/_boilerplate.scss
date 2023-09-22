@@ -6,3 +6,14 @@ body {
   color: var(--copy-color);
   background-color: var(--color-body-bg);
 }
+
+a {
+  text-decoration: var(--link-decoration);
+  color: var(--link-color);
+  transition: var(--link-transition);
+
+  @include abstract.hover-focus {
+    text-decoration: var(--link-decoration-active);
+    color: var(--link-color-active);
+  }
+}
