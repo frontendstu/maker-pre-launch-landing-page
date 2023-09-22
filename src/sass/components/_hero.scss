@@ -38,10 +38,12 @@
 
     &-left {
       background-image: var(--hero-img-left-url);
+      margin-left: var(--hero-img-left-margin-left);
     }
 
     &-right {
       background-image: var(--hero-img-right-url);
+      margin-right: var(--hero-img-right-margin-right);
     }
   }
 
