@@ -61,6 +61,17 @@
   --btn-radius: 99vw;
   --btn-padding: 0.75rem 1.5rem;
 
+  // -------- Hero
+  --hero-margin-top: 4.125rem; // 66px
+
+  @media (min-width: 48em) {
+    --hero-margin-top: 4.8125rem; // 77px
+  }
+
+  @media (min-width: 90em) {
+    --hero-margin-top: 7.125rem; // 114px
+  }
+
   // ---------- LAYOUT
 
   // -------- Wrapper
