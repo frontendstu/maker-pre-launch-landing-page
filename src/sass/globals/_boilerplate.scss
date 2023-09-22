@@ -17,3 +17,12 @@ a {
     color: var(--link-color-active);
   }
 }
+
+.heading {
+  font-weight: var(--heading-fw);
+  color: var(--heading-color);
+
+  span {
+    color: var(--heading-span-color);
+  }
+}
