@@ -89,6 +89,17 @@
     --hero-img-height: 28.6875rem; // 459px
   }
 
+  // ------ Hero Content
+  --hero-content-max-width: 20.4375rem; // 327px
+
+  @media (min-width: 48em) {
+    --hero-content-max-width: 28.5625rem; // 457px
+  }
+
+  @media (min-width: 90em) {
+    --hero-content-max-width: 45.625rem; // 730px
+  }
+
   // ---------- LAYOUT
 
   // -------- Wrapper
