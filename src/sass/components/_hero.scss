@@ -43,4 +43,9 @@
       background-image: var(--hero-img-right-url);
     }
   }
+
+  &__content {
+    margin-inline: auto;
+    max-width: var(--hero-content-max-width);
+  }
 }
