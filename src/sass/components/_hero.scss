@@ -4,6 +4,11 @@
   margin-top: var(--hero-margin-top);
   overflow-x: hidden;
 
+  @media (min-width: 48em) {
+    display: flex;
+    flex-direction: row;
+  }
+
   &__img {
     &-mobile {
       background-size: contain;
