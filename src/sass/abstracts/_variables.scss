@@ -73,4 +73,15 @@
   @media (min-width: 90em) {
     --wrapper-max-width: 69.375rem; // 1110px
   }
+
+  // -------- Header
+  --header-margin-top: 2.5rem; // 40px
+
+  @media (min-width: 48em) {
+    --header-margin-top: 3rem; // 48px
+  }
+
+  @media (min-width: 90em) {
+    --header-margin-top: 5.0625rem; // 81px
+  }
 }
