@@ -93,14 +93,36 @@
   }
 
   // ------ Hero Content
+  --hero-content-margin-top: 2.9375rem; // 47px
+  --hero-content-padding-inline: 0;
+  --hero-content-gap: 2rem; // 32px
   --hero-content-max-width: 20.4375rem; // 327px
 
   @media (min-width: 48em) {
+    --hero-content-bg-url: url('../assets/images/bg-hero-squiggle.svg');
+    --hero-content-margin-top: 0;
     --hero-content-max-width: 28.5625rem; // 457px
   }
 
   @media (min-width: 90em) {
+    --hero-content-padding-inline: 1.375rem; // 22px
+    --hero-content-gap: 4rem; // 64px
     --hero-content-max-width: 45.625rem; // 730px
+    --hero-content-text-max-width: 27.8125rem; // 445px
+  }
+
+  // ---- Hero Heading
+  --hero-heading-fs: var(--fs-400);
+  --hero-heading-leading: 1.25;
+  --hero-heading-max-width: 15.75rem; // 252px
+
+  @media (min-width: 48em) {
+    --hero-heading-max-width: 41rem; // 656px
+  }
+
+  @media (min-width: 90em) {
+    --hero-heading-fs: var(--fs-600);
+    --hero-heading-max-width: 30.75rem; // 492px
   }
 
   // ---------- LAYOUT
