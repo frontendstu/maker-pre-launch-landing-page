@@ -2,4 +2,39 @@
 
 .hero {
   margin-top: var(--hero-margin-top);
+
+  &__img {
+    &-mobile {
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-image: var(--hero-img-mobile-url);
+      width: var(--hero-img-mobile-width);
+      height: var(--hero-img-mobile-height);
+
+      @media (min-width: 48em) {
+        display: none;
+      }
+    }
+
+    &-left,
+    &-right {
+      display: none;
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: var(--hero-img-width);
+      height: var(--hero-img-height);
+
+      @media (min-width: 48em) {
+        display: flex;
+      }
+    }
+
+    &-left {
+      background-image: var(--hero-img-left-url);
+    }
+
+    &-right {
+      background-image: var(--hero-img-right-url);
+    }
+  }
 }
