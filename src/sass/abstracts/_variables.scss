@@ -72,6 +72,23 @@
     --hero-margin-top: 7.125rem; // 114px
   }
 
+  // ------ Hero Image
+  --hero-img-mobile-url: url('../assets/images/illustration-hero-mobile.png');
+  --hero-img-mobile-width: 25.625rem; // 410px
+  --hero-img-mobile-height: 14.5625rem; // 233px
+
+  @media (min-width: 48em) {
+    --hero-img-width: 19.625rem; // 314px
+    --hero-img-height: 22.25rem; // 356px
+    --hero-img-left-url: url('../assets/images/illustration-hero-left.svg');
+    --hero-img-right-url: url('../assets/images/illustration-hero-right.svg');
+  }
+
+  @media (min-width: 90em) {
+    --hero-img-width: 25.5rem; // 408px
+    --hero-img-height: 28.6875rem; // 459px
+  }
+
   // ---------- LAYOUT
 
   // -------- Wrapper
