@@ -50,7 +50,25 @@
   &__content {
     @include abstract.flex;
 
+    text-align: center;
+    background-image: var(--hero-content-bg-url);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: var(--hero-content-margin-top);
     margin-inline: auto;
+    padding-inline: var(--hero-content-padding-inline);
+    flex-direction: column;
+    gap: var(--hero-content-gap);
     max-width: var(--hero-content-max-width);
+
+    .heading {
+      font-size: var(--hero-heading-fs);
+      line-height: var(--hero-heading-leading);
+      max-width: var(--hero-heading-max-width);
+    }
+
+    p {
+      max-width: var(--hero-content-text-max-width);
+    }
   }
 }
