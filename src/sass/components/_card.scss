@@ -3,3 +3,19 @@
 .features-container {
   margin-block: var(--features-container-margin-block);
 }
+
+.features-card {
+  text-align: center;
+
+  &__img {
+    @include abstract.flex;
+
+    background-color: var(--features-card-img-bg);
+    border-radius: var(--features-card-img-radius);
+    padding: var(--features-card-img-padding);
+    margin-inline: auto;
+    padding: 26px;
+    width: var(--features-card-img-width);
+    height: var(--features-card-img-height);
+  }
+}
