@@ -19,3 +19,15 @@
     height: var(--features-card-img-height);
   }
 }
+
+.features-card__content {
+  margin-top: var(--features-card-content-margin-top);
+
+  .heading {
+    font-size: var(--features-card-content-heading-fs);
+  }
+
+  p {
+    margin-top: var(--features-card-content-text-margin-top);
+  }
+}
