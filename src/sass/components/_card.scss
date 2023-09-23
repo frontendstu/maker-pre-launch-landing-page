@@ -1,7 +1,11 @@
 @use '../abstracts' as abstract;
 
 .features-container {
+  @include abstract.flex;
+
   margin-block: var(--features-container-margin-block);
+  flex-direction: column;
+  gap: var(--feature-card-gap);
 }
 
 .features-card {
