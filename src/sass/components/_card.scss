@@ -6,6 +6,10 @@
   margin-block: var(--features-container-margin-block);
   flex-direction: column;
   gap: var(--features-container-gap);
+
+  @media (min-width: 90em) {
+    flex-direction: row;
+  }
 }
 
 .features-card {
