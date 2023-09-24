@@ -208,4 +208,11 @@
     --plans-heading-max-width: 33.75rem; // 540px
     --plans-text-max-width: var(--plans-heading-max-width);
   }
+
+  // ---- Plans Container
+  --plans-container-margin-top: 3.5rem; // 56px
+
+  @media (min-width: 90em) {
+    --plans-container-margin-top: 4.5rem; // 72px
+  }
 }
