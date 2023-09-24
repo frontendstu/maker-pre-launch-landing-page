@@ -1,5 +1,6 @@
 @use '../abstracts' as abstract;
 
+/********** Features Card */
 .features-container {
   @include abstract.flex;
 
