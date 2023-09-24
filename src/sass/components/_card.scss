@@ -43,6 +43,7 @@
 
 .features-card__content {
   margin-top: var(--features-card-content-margin-top);
+  max-width: var(--features-card-content-max-width);
 
   .heading {
     font-size: var(--features-card-content-heading-fs);
