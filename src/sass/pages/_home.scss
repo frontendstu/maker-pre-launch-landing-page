@@ -4,16 +4,18 @@
   text-align: var(--plans-text-align);
 
   .heading {
+    margin-inline: auto;
     font-size: var(--plans-heading-fs);
     max-width: var(--plans-heading-max-width);
   }
 
   p {
     margin-top: var(--plans-text-margin-top);
+    margin-inline: auto;
     max-width: var(--plans-text-max-width);
   }
 }
 
-.plans-container {
+.plans__card-container {
   margin-top: var(--plans-container-margin-top);
 }
