@@ -20,6 +20,7 @@
     padding: var(--features-card-img-padding);
     margin-inline: auto;
     padding: 26px;
+    flex-shrink: 0;
     width: var(--features-card-img-width);
     height: var(--features-card-img-height);
   }
