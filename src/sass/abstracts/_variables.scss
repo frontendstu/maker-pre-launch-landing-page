@@ -133,6 +133,10 @@
   --features-container-margin-block: 9rem; // 144px
   --features-container-gap: 3.5rem; // 56px
 
+  @media (min-width: 90em) {
+    --features-container-height: 22.25rem; // 356px
+  }
+
   // ---- Features Card
   --features-card-max-width: 100%;
 
