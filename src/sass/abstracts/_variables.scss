@@ -191,4 +191,21 @@
   @media (min-width: 90em) {
     --header-margin-top: 5.0625rem; // 81px
   }
+
+  // ---------- PAGES
+
+  // -------- Home
+
+  // ------ Pricing
+  --pricing-text-align: center;
+  --pricing-heading-fs: 1.5rem; // 24px
+  --pricing-heading-max-width: 100%;
+  --pricing-text-margin-top: 1.625rem; // 26px
+  --pricing-text-max-width: 100%;
+
+  @media (min-width: 90em) {
+    --pricing-heading-fs: var(--fs-400);
+    --pricing-heading-max-width: 33.75rem; // 540px
+    --pricing-text-max-width: var(--pricing-heading-max-width);
+  }
 }
