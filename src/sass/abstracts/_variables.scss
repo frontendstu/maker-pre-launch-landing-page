@@ -137,6 +137,7 @@
   --features-card-max-width: 100%;
 
   @media (min-width: 48em) {
+    --features-card-gap: 3.5rem; // 56px
     --features-card-max-width: 32.1875rem; // 515px
   }
 
