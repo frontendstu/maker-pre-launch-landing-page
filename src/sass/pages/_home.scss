@@ -5,13 +5,11 @@
 
   .heading {
     font-size: var(--plans-heading-fs);
-    margin-inline: auto;
     max-width: var(--plans-heading-max-width);
   }
 
   p {
     margin-top: var(--plans-text-margin-top);
-    margin-inline: auto;
     max-width: var(--plans-text-max-width);
   }
 }
