@@ -175,6 +175,25 @@
 
   --plan-img-translate-y: translateY(-1.375rem); // 22px
 
+  // ---- Plan Content
+  --plan-content-color: hsla(0, 0%, 100%, 0.5);
+
+  --plan-content-heading-fs: var(--fs-300);
+
+  --plan-content-price-heading-fs: 2.5rem;
+  --plan-content-price-heading-leading: 1.25;
+  --plan-content-price-heading-margin-top: 1.625rem; // 26px
+
+  --plan-content-price-list-color: var(--color-neutral-100);
+  --plan-content-price-list-margin-top: 1.25rem; // 20px
+  --plan-content-price-list-item-margin-top: 0.75rem; // 12px
+  --plan-content-price-list-icon-margin-right: 1.25rem; // 20px
+  --plan-content-price-list-icon-width: 0.75rem; // 12px
+  --plan-content-price-list-icon-height: var(
+    --plan-content-price-list-icon-width
+  );
+  --plan-content-price-list-icon-img: url('../assets/images/icon-check.svg');
+
   // ---------- LAYOUT
 
   // -------- Wrapper
