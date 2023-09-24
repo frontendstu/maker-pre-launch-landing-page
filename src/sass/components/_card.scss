@@ -32,6 +32,18 @@
     }
   }
 
+  @media (min-width: 90em) {
+    flex-direction: column;
+
+    &:nth-child(odd) {
+      align-self: flex-start;
+    }
+
+    &:nth-child(even) {
+      align-self: flex-end;
+    }
+  }
+
   &__img {
     @include abstract.flex;
 
