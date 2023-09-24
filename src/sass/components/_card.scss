@@ -85,4 +85,38 @@
     margin-right: auto;
     transform: var(--plan-img-translate-y);
   }
+
+  &__content {
+    color: var(--plan-content-color);
+
+    .heading {
+      font-size: var(--plan-content-heading-fs) !important;
+    }
+
+    .price-heading {
+      font-size: var(--plan-content-price-heading-fs) !important;
+      line-height: var(--plan-content-price-heading-leading);
+      margin-top: var(--plan-content-price-heading-margin-top);
+    }
+  }
+
+  ul {
+    color: var(--plan-content-price-list-color);
+    margin-top: var(--plan-content-price-list-margin-top);
+
+    li {
+      margin-top: var(--plan-content-price-list-item-margin-top);
+
+      &:before {
+        content: '';
+        margin-right: var(--plan-content-price-list-icon-margin-right);
+        display: inline-flex;
+        width: var(--plan-content-price-list-icon-width);
+        height: var(--plan-content-price-list-icon-height);
+        background-image: var(--plan-content-price-list-icon-img);
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    }
+  }
 }
