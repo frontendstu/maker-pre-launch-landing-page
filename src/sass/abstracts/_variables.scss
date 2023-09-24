@@ -155,6 +155,10 @@
   --features-card-content-heading-fs: var(--fs-300);
   --features-card-content-text-margin-top: 0.6875rem; // 11px
 
+  @media (min-width: 48em) {
+    --features-card-content-margin-top: 0;
+  }
+
   // ---------- LAYOUT
 
   // -------- Wrapper
