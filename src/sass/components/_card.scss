@@ -12,6 +12,21 @@
   text-align: center;
   max-width: var(--features-card-max-width);
 
+  @media (min-width: 48em) {
+    @include abstract.flex;
+
+    flex-direction: row;
+    max-width: var(--features-card-max-width);
+
+    &:nth-child(odd) {
+      margin-left: auto;
+    }
+
+    &:nth-child(even) {
+      margin-right: auto;
+    }
+  }
+
   &__img {
     @include abstract.flex;
 
