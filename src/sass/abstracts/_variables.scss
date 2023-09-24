@@ -134,6 +134,15 @@
 
   // ---- Features Card
   --features-card-gap: 3.5rem; // 56px
+  --features-card-max-width: 100%;
+
+  @media (min-width: 48em) {
+    --features-card-max-width: 32.1875rem; // 515px
+  }
+
+  @media (min-width: 90em) {
+    --features-card-max-width: 100%;
+  }
 
   // ---- Features Image
   --features-card-img-bg: var(--color-neutral-600);
