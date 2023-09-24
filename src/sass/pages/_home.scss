@@ -1,17 +1,17 @@
 @use '../abstracts' as abstract;
 
-.pricing {
-  text-align: var(--pricing-text-align);
+.plans {
+  text-align: var(--plans-text-align);
 
   .heading {
-    font-size: var(--pricing-heading-fs);
+    font-size: var(--plans-heading-fs);
     margin-inline: auto;
-    max-width: var(--pricing-heading-max-width);
+    max-width: var(--plans-heading-max-width);
   }
 
   p {
-    margin-top: var(--pricing-text-margin-top);
+    margin-top: var(--plans-text-margin-top);
     margin-inline: auto;
-    max-width: var(--pricing-text-max-width);
+    max-width: var(--plans-text-max-width);
   }
 }
