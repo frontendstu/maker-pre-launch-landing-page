@@ -10,6 +10,7 @@
 
 .features-card {
   text-align: center;
+  gap: var(--features-card-gap);
   max-width: var(--features-card-max-width);
 
   @media (min-width: 48em) {
