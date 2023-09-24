@@ -19,11 +19,11 @@
     max-width: var(--features-card-max-width);
 
     &:nth-child(odd) {
-      margin-left: auto;
+      align-self: flex-end;
     }
 
     &:nth-child(even) {
-      margin-right: auto;
+      align-self: flex-start;
     }
   }
 
