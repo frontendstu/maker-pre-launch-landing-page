@@ -172,6 +172,11 @@
   --plan-bg: var(--color-neutral-600);
   --plan-radius: 8px;
   --plan-padding: 0 2rem 2rem; // 32px
+  --plan-max-width: 100%;
+
+  @media (min-width: 48em) {
+    --plan-max-width: 27.8125rem; // 445px
+  }
 
   --plan-img-translate-y: translateY(-1.375rem); // 22px
 
