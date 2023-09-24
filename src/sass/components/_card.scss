@@ -10,6 +10,7 @@
 
 .features-card {
   text-align: center;
+  max-width: var(--features-card-max-width);
 
   &__img {
     @include abstract.flex;
