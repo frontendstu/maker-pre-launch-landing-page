@@ -154,9 +154,11 @@
   --features-card-content-margin-top: 2rem; // 32px
   --features-card-content-heading-fs: var(--fs-300);
   --features-card-content-text-margin-top: 0.6875rem; // 11px
+  --features-card-content-max-width: 100%;
 
   @media (min-width: 48em) {
     --features-card-content-margin-top: 0;
+    --features-card-content-max-width: 21.25rem; // 340px
   }
 
   // ---------- LAYOUT
