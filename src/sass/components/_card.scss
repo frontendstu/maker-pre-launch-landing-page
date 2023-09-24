@@ -72,3 +72,17 @@
     }
   }
 }
+
+/********** Plan Card */
+.plan {
+  text-align: left;
+  background-color: var(--plan-bg);
+  border-radius: var(--plan-radius);
+  padding: var(--plan-padding);
+  flex-direction: column;
+
+  img {
+    margin-right: auto;
+    transform: var(--plan-img-translate-y);
+  }
+}
