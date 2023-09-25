@@ -167,4 +167,17 @@
     --features-card-content-margin-top: 0;
     --features-card-content-max-width: 21.25rem; // 340px
   }
+
+  // ---------- Layout
+
+  // -------- Header
+  --header-margin-top: 2.5rem; // 40px
+
+  @media (min-width: 48em) {
+    --header-margin-top: 3rem; // 48px
+  }
+
+  @media (min-width: 90em) {
+    --header-margin-top: 5rem; // 80px
+  }
 }
