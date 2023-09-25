@@ -170,6 +170,17 @@
 
   // ---------- Layout
 
+  // -------- Wrapper
+  --wrapper-max-width: 20.4375rem; // 327px
+
+  @media (min-width: 48em) {
+    --wrapper-max-width: 35.8125rem; // 573px
+  }
+
+  @media (min-width: 90em) {
+    --wrapper-max-width: 69.375rem; // 1110px
+  }
+
   // -------- Header
   --header-margin-top: 2.5rem; // 40px
 
