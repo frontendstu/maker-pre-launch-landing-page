@@ -1,1 +1,19 @@
 @use '../abstracts' as abstract;
+
+/********** Plans */
+.plans {
+  &__intro {
+    text-align: center;
+    margin-inline: auto;
+    max-width: var(--plans-intro-max-width);
+
+    .heading {
+      font-size: var(--plans-intro-heading-fs);
+      line-height: var(--plans-intro-heading-leading);
+    }
+
+    p {
+      margin-top: var(--plans-intro-text-margin-top);
+    }
+  }
+}
