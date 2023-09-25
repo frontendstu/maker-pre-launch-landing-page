@@ -191,4 +191,26 @@
   @media (min-width: 90em) {
     --header-margin-top: 5rem; // 80px
   }
+
+  // ---------- PAGES
+
+  // -------- Home
+
+  // ------ Plans
+
+  // ---- Plans Intro
+  --plans-intro-max-width: var(--wrapper-max-width);
+  --plans-intro-heading-fs: 1.5rem; // 24px
+  --plans-intro-heading-leading: 1.25;
+  --plans-intro-text-margin-top: 1.625rem; // 26px
+
+  @media (min-width: 48em) {
+    --plans-intro-max-width: var(--wrapper-max-width);
+  }
+
+  @media (min-width: 90em) {
+    --plans-intro-max-width: 33.75rem; // 540px
+    --plans-intro-heading-fs: var(--fs-400);
+    --plans-intro-text-margin-top: 1.5rem; // 24px
+  }
 }
