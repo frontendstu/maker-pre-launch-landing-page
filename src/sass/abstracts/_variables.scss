@@ -213,4 +213,17 @@
     --plans-intro-heading-fs: var(--fs-400);
     --plans-intro-text-margin-top: 1.5rem; // 24px
   }
+
+  // ---- Plans Container
+  --plans-container-margin-top: 3.5rem; // 56px
+  --plans-container-max-width: var(--wrapper-max-width);
+
+  @media (min-width: 48em) {
+    --plans-container-max-width: 27.8125rem; // 445px
+  }
+
+  @media (min-width: 90em) {
+    --plans-container-margin-top: 4.5rem; // 72px
+    --plans-container-max-width: 57.5rem; // 920px
+  }
 }
