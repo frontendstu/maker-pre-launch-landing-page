@@ -27,6 +27,7 @@
 
     @media (min-width: 90em) {
       flex-direction: row;
+      column-gap: var(--plans-container-col-gap);
     }
   }
 
