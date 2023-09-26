@@ -226,4 +226,46 @@
     --plans-container-margin-top: 4.5rem; // 72px
     --plans-container-max-width: 57.5rem; // 920px
   }
+
+  // ---- Plans Plan
+  --plans-plan-color: hsla(0, 0%, 100%, 0.6);
+  --plans-plan-color-even: hsla(206, 84%, 22%, 0.6);
+  --plans-plan-bg: var(--color-neutral-600);
+  --plans-plan-bg-even: var(--color-primary);
+  --plans-plan-radius: 8px;
+  --plans-plan-padding: 0 1.875rem 2rem; // 30px 32px
+  --plans-plan-icon-transform: translateY(-1.5rem);
+  --plans-plan-margin-top: 3.25rem; // 32px
+
+  --plans-plan-heading-fs: var(--fs-300);
+
+  --plans-plan-text-margin-top: 1.1875rem; // 19px
+
+  --plans-plan-price-fw: var(--fw-extrabold);
+  --plans-plan-price-fs: var(--fs-500);
+  --plans-plan-price-leading: 1.5;
+  --plans-plan-price-color: var(--color-neutral-100);
+  --plans-plan-price-color-even: var(--color-neutral-600);
+  --plans-plan-price-margin-top: 1.625rem; // 26px
+  --plans-plan-price-span-fw: var(--fw-medium);
+  --plans-plan-price-span-fs: 0.9375rem; // 15px
+
+  --plans-plan-list-margin-top: 1.1875rem; // <ul>; 19px
+  --plans-plan-list-item-color: var(--color-neutral-100);
+  --plans-plan-list-item-color-even: var(--color-neutral-600);
+  --plans-plan-list-item-margin-top: 0.75rem; // 12px
+  --plans-plan-list-item-icon: url('../assets/images/icon-check.svg');
+  --plans-plan-list-item-icon-even: url('../assets/images/icon-check-alt.svg');
+  --plans-plan-list-item-icon-margin-right: 1rem; // 16px
+  --plans-plan-list-item-icon-width: 0.625rem; // 10px
+  --plans-plan-list-item-icon-height: 0.625rem; // 10px
+
+  @media (min-width: 48em) {
+    --plans-plan-padding: 0 2.375rem 3.75rem; // 38px 60px
+    --plans-plan-price-margin-top: 1.5rem; // 24px
+  }
+
+  @media (min-width: 90em) {
+    --plans-plan-padding: 0 2.375rem 3rem; // 38px 48px
+  }
 }
