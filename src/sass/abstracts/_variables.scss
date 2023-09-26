@@ -285,13 +285,16 @@
   // -------- Notification
   --notification-bg-url: url('../assets/images/bg-footer-squiggle.svg');
   --notification-margin-top: 9rem; // 144px
+  --notification-max-width: 20.5rem;
 
   @media (min-width: 48em) {
     --notification-margin-top: 7.5rem; // 120px
+    --notification-max-width: 29.75rem;
   }
 
   @media (min-width: 90em) {
     --notification-margin-top: 9.375rem; // 150px
+    --notification-max-width: 29.75rem;
   }
 
   // ------ Notification Heading
