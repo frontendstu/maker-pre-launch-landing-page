@@ -113,6 +113,8 @@
   width: 100%;
   height: 100px;
   margin-top: var(--notification-margin-top);
+  margin-inline: auto;
+  max-width: var(--notification-max-width);
 
   .heading {
     text-align: center;
