@@ -6,7 +6,7 @@ const form = document.querySelector('.form');
 form.addEventListener('submit', (e) => {
   const regEx = /^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-]+)(\.[a-zA-Z]{2,5}){1,2}$/;
   const input = form[0];
-  const message = document.querySelector('.form__error');
+  const message = document.querySelector('.form__message');
 
   if (input.value.match(regEx)) {
     e.preventDefault();
