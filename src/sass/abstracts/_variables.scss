@@ -168,6 +168,11 @@
     --features-card-content-max-width: 21.25rem;
   }
 
+  // -------- Form
+  @media (min-width: 48em) {
+    --form-col-gap: 1rem;
+  }
+
   // ---------- LAYOUT
 
   // -------- Wrapper
