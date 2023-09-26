@@ -3,6 +3,12 @@
 .form {
   max-width: var(--form-max-width);
 
+  @media (min-width: 48em) {
+    @include abstract.flex;
+
+    column-gap: var(--form-col-gap);
+  }
+
   input {
     width: 100%;
 
@@ -26,12 +32,6 @@
 
   input[type='submit'] {
     margin-top: var(--form-submit-margin-top);
-  }
-
-  @media (min-width: 48em) {
-    @include abstract.flex;
-
-    column-gap: var(--form-col-gap);
   }
 
   &__message {
