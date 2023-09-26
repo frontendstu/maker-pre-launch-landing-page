@@ -1,6 +1,8 @@
 @use '../abstracts' as abstract;
 
 .form {
+  max-width: var(--form-max-width);
+
   input {
     width: 100%;
 
