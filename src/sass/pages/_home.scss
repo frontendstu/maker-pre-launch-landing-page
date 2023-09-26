@@ -103,3 +103,22 @@
     }
   }
 }
+
+/********** Notification */
+.notification {
+  background-image: var(--notification-bg-url);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+  height: 100px;
+  margin-top: var(--notification-margin-top);
+
+  .heading {
+    text-align: center;
+    font-size: var(--notification-heading-fs);
+    line-height: var(--notification-heading-leading);
+    margin-inline: auto;
+    max-width: var(--notification-heading-max-width);
+  }
+}
