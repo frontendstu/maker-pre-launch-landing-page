@@ -310,4 +310,11 @@
     --notification-heading-fs: 2rem; // 32px
     --notification-heading-max-width: 45.625rem; // 730px
   }
+
+  // ------ Notification Form
+  --notification-form-margin-top: 1.875rem;
+
+  @media (min-width: 90em) {
+    --notification-form-margin-top: 2.625rem;
+  }
 }
