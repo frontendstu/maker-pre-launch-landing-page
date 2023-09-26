@@ -123,4 +123,8 @@
     margin-inline: auto;
     max-width: var(--notification-heading-max-width);
   }
+
+  form {
+    margin-top: var(--notification-form-margin-top);
+  }
 }
