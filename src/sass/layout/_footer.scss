@@ -1,1 +1,11 @@
 @use '../abstracts' as abstract;
+
+.attribution {
+  text-align: center;
+  font-size: var(--attribution-fs);
+  margin-block: var(--attribution-margin-block);
+
+  a {
+    font-weight: var(--attribution-link-fw);
+  }
+}
