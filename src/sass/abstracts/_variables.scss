@@ -192,6 +192,18 @@
     --header-margin-top: 5rem; // 80px
   }
 
+  // -------- Footer
+
+  // ------ Attribution
+  --attribution-fs: 0.75rem; // 12px
+  --attribution-margin-block: 5rem 2rem; // 80px
+
+  --attribution-link-fw: var(--fw-extrabold);
+
+  @media (min-width: 90em) {
+    --attribution-fs: 0.875rem; // 14px
+  }
+
   // ---------- PAGES
 
   // -------- Home
