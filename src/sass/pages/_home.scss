@@ -106,9 +106,14 @@
 
 /********** Notification */
 .notification {
+  background: var(--notification-bg-url) top/contain no-repeat;
   margin-top: var(--notification-margin-top);
   margin-inline: auto;
-  max-width: var(--notification-max-width);
+
+  @media (min-width: 48em) {
+    background-size: contain;
+    background-position: center;
+  }
 
   .heading {
     text-align: center;
