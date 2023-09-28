@@ -175,6 +175,14 @@
     --form-max-width: 29.75rem;
   }
 
+  // ------ Form Input
+  --form-input-color: var(--color-neutral-100);
+  --form-input-placeholder-color: hsla(0, 0%, 100%, 0.4);
+  --form-input-bg: var(--color-neutral-600);
+  --form-input-border: 2px solid transparent;
+  --form-input-radius: 99vw;
+  --form-input-padding: 0.75rem 1.125rem;
+
   // ---------- LAYOUT
 
   // -------- Wrapper
