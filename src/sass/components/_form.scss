@@ -39,4 +39,9 @@
       column-gap: var(--form-group-grid-col-gap);
     }
   }
+
+  &__message {
+    font-size: var(--form-message-fs);
+    margin-left: var(--form-message-margin-left);
+  }
 }
