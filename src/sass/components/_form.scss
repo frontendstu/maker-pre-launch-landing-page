@@ -42,6 +42,7 @@
 
   &__message {
     font-size: var(--form-message-fs);
+    padding-top: var(--form-message-padding-top);
     margin-left: var(--form-message-margin-left);
   }
 }
