@@ -25,6 +25,8 @@
   }
 
   input[type='submit'] {
+    cursor: pointer;
+    transition: var(--form-input-submit-transition);
     margin-top: var(--form-input-submit-margin-top);
   }
 
