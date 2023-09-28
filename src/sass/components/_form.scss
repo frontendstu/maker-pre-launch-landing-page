@@ -1,1 +1,6 @@
 @use '../abstracts' as abstract;
+
+.form {
+  margin-inline: auto;
+  max-width: var(--form-max-width);
+}
