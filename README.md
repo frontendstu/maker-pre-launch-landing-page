@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [📦 Solution](https://github.com/frontendstu/maker-pre-launch-landing-page)
-- Live Site URL: [🌏 Live site](https://your-live-site-url.com)
+- Live Site URL: [🌏 Live site](https://frontendstu.github.io/maker-pre-launch-landing-page/)
 
 ## My process
 
