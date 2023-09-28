@@ -19,4 +19,8 @@
       color: var(--form-input-placeholder-color);
     }
   }
+
+  input[type='submit'] {
+    margin-top: var(--form-input-submit-margin-top);
+  }
 }
