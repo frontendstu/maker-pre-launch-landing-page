@@ -27,4 +27,14 @@
   input[type='submit'] {
     margin-top: var(--form-input-submit-margin-top);
   }
+
+  &__group {
+    display: block;
+
+    @media (min-width: 48em) {
+      display: grid;
+      grid-template-columns: var(--form-group-grid-template);
+      column-gap: var(--form-group-grid-col-gap);
+    }
+  }
 }
