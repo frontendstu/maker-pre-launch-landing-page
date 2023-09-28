@@ -6,6 +6,10 @@
 
   input {
     width: 100%;
+
+    @include abstract.focus {
+      outline: 0;
+    }
   }
 
   input[type='email'] {
