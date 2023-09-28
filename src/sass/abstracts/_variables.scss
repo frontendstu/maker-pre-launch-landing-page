@@ -168,31 +168,6 @@
     --features-card-content-max-width: 21.25rem;
   }
 
-  // -------- Form
-  @media (min-width: 48em) {
-    --form-col-gap: 1rem;
-    --form-max-width: 29.75rem;
-  }
-
-  // ------ Form Input: Email
-  --form-email-fw: var(--fw-extrabold);
-  --form-email-color: var(--color-neutral-100);
-  --form-email-color-placeholder: hsla(0, 0%, 100%, 0.4);
-  --form-email-bg: var(--color-neutral-600);
-  --form-email-border: 2px solid transparent;
-  --form-email-radius: 99vw;
-  --form-email-padding: 0.75rem 1.125rem;
-
-  // ------ Form Input: Submit
-  --form-submit-margin-top: 1.5rem;
-
-  @media (min-width: 48em) {
-    --form-submit-margin-top: 0;
-  }
-
-  // ------ Form Message
-  --form-message-fs: 0.75rem;
-
   // ---------- LAYOUT
 
   // -------- Wrapper
