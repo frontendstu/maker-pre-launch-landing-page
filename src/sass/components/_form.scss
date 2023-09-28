@@ -7,4 +7,16 @@
   input {
     width: 100%;
   }
+
+  input[type='email'] {
+    color: var(--form-input-color);
+    background-color: var(--form-input-bg);
+    border: var(--form-input-border);
+    border-radius: var(--form-input-radius);
+    padding: var(--form-input-padding);
+
+    &::placeholder {
+      color: var(--form-input-placeholder-color);
+    }
+  }
 }
