@@ -3,4 +3,8 @@
 .form {
   margin-inline: auto;
   max-width: var(--form-max-width);
+
+  input {
+    width: 100%;
+  }
 }
